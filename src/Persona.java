@@ -5,13 +5,22 @@ public class Persona {
   private String nombre;
   private String apellido;
   private int edad;
+  private String correo;
 
   // Constructor
-  public Persona(String nombre, String apellido, int edad) {
-    System.out.println("Constructor de Persona llamado");
+  public Persona() {}
+
+  public Persona(String nombre, String apellido) {
+    this.nombre = nombre;
+    this.apellido = apellido;
+  }
+  
+  
+  public Persona(String nombre, String apellido, int edad, String correo) {
     this.nombre = nombre;
     this.apellido = apellido;
     this.edad = edad;
+    this.correo = correo;
   }
 
   // Method o Funciones
@@ -19,6 +28,7 @@ public class Persona {
     System.out.println("Nombre: " + nombre);
     System.out.println("Apellido: " + apellido);
     System.out.println("Edad: " + edad);
+    System.out.println("Correo: " + correo);
   }
 
 }
