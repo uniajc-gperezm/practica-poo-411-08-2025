@@ -1,14 +1,14 @@
-//Class Persona
+
 public class Persona {
 
-  // Attributes
+
   private String nombre;
   private String apellido;
   private int edad;
   private String correo;
 
-  // Constructor
-  public Persona() {}
+
+  public Persona(String estevan, int par, String cali) {}
 
   public Persona(String nombre, String apellido) {
     this.nombre = nombre;
@@ -23,12 +23,13 @@ public class Persona {
     this.correo = correo;
   }
 
-  // Method o Funciones
+  
   public void mostrarInformacion() {
     System.out.println("Nombre: " + nombre);
     System.out.println("Apellido: " + apellido);
     System.out.println("Edad: " + edad);
     System.out.println("Correo: " + correo);
+
   }
 
 }
