@@ -3,9 +3,9 @@ public class App {
     System.out.println("Hello, World!");
 
     // Create an instance of Persona
-    Persona persona1 = new Persona("Juan", "Perez", 30, "juan@gmail.com");
+    Persona persona1 = new Persona("Juan", "Perez", 30, "juan@gmail.com", "Soltero");
 
-    Persona persona2 = new Persona("Maria", "Gomez");
+    Persona persona2 = new Persona("Maria", "Gomez", "Casada");
 
     persona1.mostrarInformacion();
     System.out.println(); // Print a blank line for better readability
