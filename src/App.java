@@ -3,7 +3,7 @@ public class App {
     System.out.println("Hello, World!");
 
     // Create an instance of Persona
-    Persona persona1 = new Persona("Juan", "Perez", 30, "juan@gmail.com");
+    Persona persona1 = new Persona("Juan", "Perez", 30, "juan@gmail.com", "calle 46a #46-88");
 
     Persona persona2 = new Persona("Maria", "Gomez");
 
