@@ -17,7 +17,7 @@ public class Persona {
   }
   
   
-  public Persona(String nombre, String apellido, int edad, String correo) {
+  public Persona(String nombre, String apellido, int edad, String correo, String trabajo) {
     this.nombre = nombre;
     this.apellido = apellido;
     this.edad = edad;
@@ -30,6 +30,7 @@ public class Persona {
     System.out.println("Apellido: " + apellido);
     System.out.println("Edad: " + edad);
     System.out.println("Correo: " + correo);
+    System.out.println("Trabajo: " + trabajo);
   }
 
 }
