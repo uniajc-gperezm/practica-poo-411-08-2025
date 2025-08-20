@@ -7,7 +7,7 @@ public class App {
 
     Persona persona2 = new Persona("Maria", "Gomez");
 
-    Persona persona3 = new Persona("carlos", "giraldo");
+    Persona persona3 = new Persona("carlos", "giraldoo");
 
     persona1.mostrarInformacion();
     System.out.println(); // Print a blank line for better readability
