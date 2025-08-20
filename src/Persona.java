@@ -6,6 +6,7 @@ public class Persona {
   private String apellido;
   private int edad;
   private String correo;
+  private double altura;
 
   // Constructor
   public Persona() {}
@@ -16,11 +17,12 @@ public class Persona {
   }
   
   
-  public Persona(String nombre, String apellido, int edad, String correo) {
+  public Persona(String nombre, String apellido, int edad, String correo, double altura) {
     this.nombre = nombre;
     this.apellido = apellido;
     this.edad = edad;
     this.correo = correo;
+    this.altura = altura;
   }
 
   // Method o Funciones
@@ -29,6 +31,7 @@ public class Persona {
     System.out.println("Apellido: " + apellido);
     System.out.println("Edad: " + edad);
     System.out.println("Correo: " + correo);
+    System.out.println("Altura: " + altura);
   }
 
 }
