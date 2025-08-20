@@ -6,6 +6,7 @@ public class Persona {
   private String apellido;
   private int edad;
   private String correo;
+  private String estadoCivil;
 
   // Constructor
   public Persona() {}
